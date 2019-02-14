@@ -38,7 +38,7 @@ This is mercifully simple thanks to Keras' impressively clean API.
 
 Here's a small demo:
 
-```
+```python
 import keras
 import tensorflow as tf
 from keras.models import Sequential
@@ -76,7 +76,7 @@ Okay, so now that you have a `.tflite` file sitting around, it's time to use it!
 
 Here's a short script that's fairly self explanatory on how to run inference on the Pi:
 
-```
+```python
 import numpy as np
 import tensorflow as tf
 from tqdm import tqdm
