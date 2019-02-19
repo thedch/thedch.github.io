@@ -1,6 +1,6 @@
 ---
 layout:     post
-title:      Mapping an indoor environment with LiDAR and ROS
+title:      Localizing + Navigating an indoor environment with LiDAR and ROS
 ---
 
 A few weeks ago, I posted a video of my team using LiDAR on our car to map out an indoor environment. I'm pleased to announce that the car is now a self driving car, and can successfully navigate an environment when given a starting position and a goal.

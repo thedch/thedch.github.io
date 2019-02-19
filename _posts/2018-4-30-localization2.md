@@ -1,6 +1,6 @@
 ---
 layout:     post
-title:      Mapping an indoor environment with LiDAR and ROS
+title:      Localizing + Navigating an indoor environment with LiDAR and ROS (part II)
 ---
 
 In my previous post, I showed a video of our robot struggling to navigate to its destination. I had a few theories regarding the root cause of our issues, and my main theory was the PID controller. In this post I'll discuss how we solved our PID control issues, and the results.
