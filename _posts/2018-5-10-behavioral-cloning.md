@@ -7,8 +7,6 @@ I finished the Behavioral Cloning project in the Udacity Self Driving Car nanode
 
 As always, my code can be found on my [GitHub](https://github.com/thedch/behavioral-cloning-neural-net).
 
-![frame](/images/mirror/frame.jpg)
-
 # The problem
 
 Given a 3D vehicle simulator where you can control steering and velocity, how can you navigate autonomously around a track? Traditional computer vision techniques might work: color space transforms, gradients, or line detection could be used to analyze what's in front of the car, and take action based on that. Reinforcement learning could also be used: we can run the simulator some hundreds or thousands of times in parallel on a supercomputer, giving the system some reward / penalty system, and allowing it to 'learn' how to drive. Here's how I solved it:
