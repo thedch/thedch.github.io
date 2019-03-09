@@ -1,9 +1,6 @@
 ---
 layout:     post
 title:      TensorFlow Lite on a Raspberry Pi
-date:       2018-11-23 16:30:00
-summary:
-categories: technical
 ---
 
 I recently tried to figure out how to get TensorFlow Lite inference running on a Raspberry Pi, and it took me a surprisingly amount of research and dead ends (and PRs to the Tensorflow codebase / docs to fix issues) before I figured out how to get it working. The final product is actually incredibly simple when you know what to do, but it took me long enough to figure it out that I thought I'd share.
